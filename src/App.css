@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "inter", sans-serif;
+  color: #293264;
+}
+
+body {
+  background-image: url("./assets/quizbackground.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing--page {
+  text-align: center;
+}
+
+.landing--header {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.landing--text {
+  margin-bottom: 30px;
+}
+
+.landing--button {
+  cursor: pointer;
+  background: none;
+  display: block;
+  margin: 1.5em auto;
+  font-family: "inter", sans-serif;
+  font-size: 1rem;
+  color: #ffff;
+  background-color: #4d5b9e;
+  border-radius: 20px;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+fieldset {
+  border: 0;
+  max-width: 100%;
+  min-width: fit-content;
+  margin: 0 auto;
+}
+
+.question {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-top: 0.5em;
+  color: #293264;
+}
+
+.options--cont {
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  display: flex;
+  text-align: center;
+}
+
+.options--cont label {
+  background: none;
+  color: #293264;
+  border-radius: 15px;
+  padding: 7px 20px;
+  border: 1px solid #293264;
+  margin-bottom: 5px;
+  cursor: pointer;
+  margin: 0.7em 0.7em 1.5em 0.7em;
+}
+
+.question-container {
+  display: flex;
+  border-bottom: 1px solid #dbdef0;
+  padding: 0.5em;
+  align-content: center;
+}
+
+input[type="radio"] {
+  display: none;
+  position: absolute;
+  width: 100%;
+  appearance: none;
+}
+
+.options--cont input[type="radio"]:checked + label {
+  background-color: #d6dbf5;
+  border: none;
+}
+
+.check--answers {
+  background: none;
+  display: block;
+  margin: 1.5em auto;
+  font-family: "inter", sans-serif;
+  font-size: 1rem;
+  color: #ffff;
+  background-color: #4d5b9e;
+  border-radius: 20px;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.end--msg {
+  margin: 1.5em auto;
+}
+
+.fetch--msg {
+  margin: 1.5em auto;
+  text-align: center;
+}
