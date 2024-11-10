@@ -1,4 +1,4 @@
-This is a solo project from Scrimba's React module. A challenging but great learning experience indeed! 
+This is a solo project from Scrimba's React Course. A challenging but great learning experience indeed! 
 
 ![Screenshot 2024-06-17 195301](https://github.com/user-attachments/assets/76335ebe-f1f5-4086-b4be-7ad010d6502c)
 
